@@ -1,0 +1,17 @@
+ECHO is on.
+#ignore appsettings.json file
+appsettings.json
+appsettings.Development.json
+# Ignore all .log files
+*.log
+
+# ignore bin and obj directories
+bin/
+obj/
+
+# Ignore the node_modules directory
+node_modules/
+
+# Ignore all files in the build/ directory
+build/
+
